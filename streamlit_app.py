@@ -4,7 +4,7 @@ cnx = st.connections("snow_flake")
 from snowflake.snowpark.functions import col, when_matched
 
 # Write directly to the app
-st.title("Customize your Smoothie :cup_with_straw:")
+st.title('Customize your Smoothie :cup_with_straw:')
 st.write(
     """Choose the fruits you want in your custome Smoothie!
     """
