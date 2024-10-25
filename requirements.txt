@@ -1,4 +1,10 @@
 # requirements.txt
 snowflake-snowpark-python
 streamlit
+channels:
+  - snowflake
+dependencies:
+  - python=3.8.*
+  - snowflake-snowpark-python=
+  - streamlit=
 
