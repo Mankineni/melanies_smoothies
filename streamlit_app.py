@@ -1,6 +1,6 @@
 # Import python packages
 import streamlit as st
-cnx = st.connection("snow_flake")
+cnx = st.connections("snow_flake")
 from snowflake.snowpark.functions import col, when_matched
 
 # Write directly to the app
